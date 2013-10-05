@@ -21,6 +21,7 @@
 		BAC9D7DE17FFC5CF00D28D86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC9D7C017FFC5CE00D28D86 /* UIKit.framework */; };
 		BAC9D7E617FFC5CF00D28D86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC9D7E417FFC5CF00D28D86 /* InfoPlist.strings */; };
 		BAC9D7E817FFC5CF00D28D86 /* CidadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9D7E717FFC5CF00D28D86 /* CidadeTests.m */; };
+		BAC9D7F417FFCB2400D28D86 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9D7F317FFCB2400D28D86 /* XMLDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BAC9D7E317FFC5CF00D28D86 /* CidadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CidadeTests-Info.plist"; sourceTree = "<group>"; };
 		BAC9D7E517FFC5CF00D28D86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAC9D7E717FFC5CF00D28D86 /* CidadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CidadeTests.m; sourceTree = "<group>"; };
+		BAC9D7F217FFCB2400D28D86 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		BAC9D7F317FFCB2400D28D86 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		BAC9D7C217FFC5CE00D28D86 /* Cidade */ = {
 			isa = PBXGroup;
 			children = (
+				BAC9D7F117FFCB2400D28D86 /* XMLDictionary */,
 				BAC9D7CB17FFC5CE00D28D86 /* AppDelegate.h */,
 				BAC9D7CC17FFC5CE00D28D86 /* AppDelegate.m */,
 				BAC9D7CE17FFC5CE00D28D86 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				BAC9D7E417FFC5CF00D28D86 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAC9D7F117FFCB2400D28D86 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9D7F217FFCB2400D28D86 /* XMLDictionary.h */,
+				BAC9D7F317FFCB2400D28D86 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC9D7D317FFC5CE00D28D86 /* ViewController.m in Sources */,
+				BAC9D7F417FFCB2400D28D86 /* XMLDictionary.m in Sources */,
 				BAC9D7CD17FFC5CE00D28D86 /* AppDelegate.m in Sources */,
 				BAC9D7C917FFC5CE00D28D86 /* main.m in Sources */,
 			);
